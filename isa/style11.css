@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    background-color: rgb(191, 248, 145);
+}
+
+.left, .center, .right {
+    padding: 20px;
+    background-color: rgb(255, 122, 248);
+}
+
+.left {
+    float: left;
+    width: 30%;
+}

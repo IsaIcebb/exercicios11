@@ -1,0 +1,55 @@
+.navbar {
+    position:fixed;
+    z-index: 3000;
+    top:0;
+    width: 100%;
+    background-color: #e2a350;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(73, 2, 2);
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.paragrafo{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family: arial;
+    text-align: justify;
+    line-height: 1.5;
+}
+#home{
+   padding-top: 50px;
+}
+.navbar a:hover {
+    background-color: #fcf5b5;
+    color: rgb(23, 0, 61);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cards {
+    background-color: #ffc16f;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+}

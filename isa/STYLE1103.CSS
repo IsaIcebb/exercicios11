@@ -1,0 +1,32 @@
+body {
+    position: relative;
+}
+
+.float-box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(252, 122, 16);
+    margin: 20px;
+}
+
+.zindex-box1, .zindex-box2 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    color: rgb(191, 243, 149);
+}
+
+.zindex-box1 {
+    background-color: rgb(192, 139, 253);
+    top: 50px;
+    left: 100px;
+    z-index: 2; 
+}
+
+.zindex-box2 {
+    background-color: rgb(247, 145, 167);
+    top: 100px;
+    left: 150px;
+    z-index: 1; 
+}
